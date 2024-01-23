@@ -50,19 +50,20 @@ h1 {
 }
 
 .library {
-    position:relative;
-    top: 10px;
-    padding: 16px;
-    width: 270px;
-    background: #121212;
-    display: flex;
+    margin-top: 10px;
+    background-color: #121212;
     border-radius: 8px;
+    padding: 16px 0 16px 16px;
 }
 
-.library a {
+.library__content {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
+}
+
+.library .library__content .fa-plus {
+    margin-left: 120px;
 }
